@@ -281,3 +281,35 @@ address {
   text-align: center;
 }
 
+@media (max-width: 800px) {
+    body {
+      margin: 0 5%;
+    }
+    nav {
+      flex-wrap: wrap;
+    }
+    .navigation {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .navigation a {
+      font-size: 18px;
+      margin: 10px 0 0 0;
+      text-decoration: none;
+    }
+  
+    img.logo {
+      width: auto;
+      order: -1;
+      margin: 0 auto;
+    }
+    .main {
+      width: 100%;
+    }
+    .logo2 {
+      display: none;
+    }
+  }
