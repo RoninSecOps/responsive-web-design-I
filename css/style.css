@@ -154,11 +154,22 @@ body {
   max-width: 980px;
   margin: 2% auto;
 }
+@media (max-width: 1030px) {
+  body {
+    margin: 2% 5%;
+  }
+}
 nav {
   display: flex;
   margin-bottom: 60px;
   justify-content: space-between;
   align-items: center;
+}
+@media(max-width: 800px){
+  nav {
+    flex-flow: column;
+  }
+ 
 }
 
 .navigation {
@@ -166,12 +177,19 @@ nav {
   display: flex;
   justify-content: space-between;
 }
+@media(max-width: 800px){
+  .navigation {
+    order:2;
+  }
+ 
+}
 p {
   font-size: 16px;
   font-family: 'Times New Roman', Times, serif;
 }
 .top-logo-container {
   width: 25%;
+  
 }
 
 .navigation a {
