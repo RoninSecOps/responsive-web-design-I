@@ -156,6 +156,11 @@ body {
   max-width: 980px;
   margin: 0 auto;
 }
+@media (max-width: 1030px) {
+  body {
+    margin: 2% 5%;
+  }
+}
 
 nav {
   display: flex;
