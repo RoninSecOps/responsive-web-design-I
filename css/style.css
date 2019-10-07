@@ -1,0 +1,265 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Bangers', cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+body {
+  width: 980px;
+  margin: 2% auto;
+}
+nav {
+  display: flex;
+  margin-bottom: 60px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+p {
+  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.top-logo-container {
+  width: 25%;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: gray;
+  font-size: 18px;
+  margin: 10px 0 0 0;
+}
+.container-header-img {
+  text-align: center;
+}
+.services-header-img {
+  width: 100%;
+  margin-bottom: 5%;
+}
+hr {
+  margin: 5% 0;
+  border: 1px solid black;
+}
+.services-container {
+  display: flex;
+}
+.main {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.digital-design,
+.ux-ui,
+.digital-marketing,
+.web-development,
+.ios-development,
+.android-development {
+  margin-bottom: 30px;
+  border: 1px solid black;
+  width: 48%;
+  background: lightgrey;
+  padding: 20px;
+}
+
+button {
+  font-size: 10px;
+  background: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px 20px;
+  margin-top: 5%;
+  margin-left: 0;
+  font-weight: 600;
+  cursor: pointer;
+}
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.facts {
+  width: 48%;
+}
+.list-container {
+  margin-top: 7%;
+}
+.bottom-img {
+  width: 48%;
+}
+img.services-info-img {
+  width: 100%;
+}
+
+li {
+  list-style-type: square;
+  margin-top: 10px;
+  margin-left: 5%;
+  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif;
+}
+footer {
+  display: flex;
+  margin-bottom: 1%;
+}
+footer span {
+  margin-top: 2%;
+  margin-left: auto;
+  margin-right: auto;
+}
