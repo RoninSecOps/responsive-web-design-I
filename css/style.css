@@ -151,7 +151,7 @@ h5 {
 
 /* Your code starts here! */
 body {
-  width: 980px;
+  max-width: 980px;
   margin: 2% auto;
 }
 nav {
